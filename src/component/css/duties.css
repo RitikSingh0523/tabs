@@ -1,0 +1,25 @@
+.dutiesContainer{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    margin-bottom: 1.25rem;
+    align-items: center;
+    font-size: 0.9rem;
+}
+@media screen and (min-width:992px){
+    .dutiesContainer{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 2rem;
+        margin-bottom: 1.25rem;
+        align-items: center;
+        font-size: 1.25rem;
+    }
+  }
+.icon{
+    color: #14b8a6;
+}
+
+.dutiesDesc{
+    color:#334155;
+}

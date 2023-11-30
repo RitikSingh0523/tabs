@@ -1,0 +1,32 @@
+.btnContainer {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+@media screen and (min-width:992px){
+    .btnContainer{
+        display: flex;
+        gap: 2rem;
+        justify-content: flex-start;
+        flex-direction: column;
+        width:20%
+    }
+    .active-btn, .job-btn:hover{
+        color:#14b8a6;
+        box-shadow: -2px 0 #14b8a6;
+    }
+  }
+.job-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: black;
+}
+.active-btn, .job-btn:hover{
+    color:#14b8a6;
+    box-shadow: 0 2px #14b8a6;
+}

@@ -1,0 +1,32 @@
+.jobDescription{
+    width: 85%;
+    margin: auto;
+}
+@media screen and (min-width:992px){
+    .jobDescription{
+        width: 70%;
+    }
+    h1{
+        font-weight: 400;
+        font-size: 3.25rem;
+        margin: 0 0 0.6rem 0;
+    }
+  }
+h1{
+    font-size: 1.5rem;
+}
+.company{
+    background-color: #cbd5e1;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: 400;
+    text-align: center;
+    padding:5px;
+    margin: 0;
+}
+.dates{
+    margin: 0.6rem 0 2rem 0;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
