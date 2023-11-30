@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/sideButton.css'
+import './css/sidebutton.css'
 const SideButtons = ({jobs,currentItem,setCurrentItem}) => {
   return (
     <div className='btnContainer'>
